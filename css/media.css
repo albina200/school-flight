@@ -1,0 +1,215 @@
+@media (max-width:962px){
+    .header_info h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .preparation__elements{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .you__elements{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .you{
+        padding: 59px 0 39px 0;
+    }
+    .you__item{
+        margin: 0 0 20px 0;
+    }
+}
+
+@media (max-width:920px){
+    .logo img{
+        width: 100px;
+    }
+    .nav__links a{
+        font-size: 16px;
+    }
+    .nav__phon{
+        font-size: 16px;
+    }
+    .footer__phon{
+        font-size: 16px;
+    }
+}
+@media (max-width:768px){
+    header{
+        padding: 121px 0 89px 0;
+    }
+    .hamburger{
+        display: block;
+    }
+    .nav__links{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: #1665AA;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav__links a{
+        color: white;
+    }
+    .nav__phon{
+        position: fixed;
+        bottom: 20px;
+        right: -100%;
+        width: 100%;
+        text-align: center;
+    }
+    .nav__links_active{
+        right: 0;
+        transition: 0.5s;
+    }
+    .nav__phon_active{
+        right: 0;
+        color: white;
+        transition: 0.5s;
+    }
+    header .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header_info{
+        margin: 0 0 50px 0;
+    }
+    .header_info h1{
+        font-size: 48px;
+        line-height: 58px;
+    }
+    section{
+        padding: 89px 0 89px 0;
+    }
+    .section__element{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    .color__element{
+        width: 70%;
+    }
+    .text__element{
+        margin: 25px 0;
+        width: 70%;
+    }
+    .preparation__elements{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .preparation__item{
+        width: 100%;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .preparation__info{
+        width: 70%;
+    }
+    .preparation__item span{
+        min-width: 80px;
+    }
+    .you__item{
+        width: 70%;
+    }
+    .registration .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;        
+    }
+    .registration_info{
+        margin-bottom: 30px;
+    }
+    .footer__elements{
+        flex-direction: column;
+        align-items: center; 
+    }
+    .footer__elements p{
+        margin: 20px 0;
+    }
+}
+
+@media (max-width:433px){
+    .color__element{
+        width: 80%;
+        padding: 20px;
+    }
+    .color__element h2{
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .color__element p{
+        font-size: 16px;
+        line-height: 22px;
+        margin: 10px 0;
+    }
+    .statistik{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .color__element a{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .text__element{
+        width: 80%;
+    }
+    .text__element h2{
+        font-size: 23px;
+        line-height: 34px;
+    }
+    .text__element p{
+        font-size: 17px;
+        line-height: 22px;
+        margin: 13px 0 0 0;
+    }
+    .green__element h2{
+        font-size: 32px;
+        line-height: 43px;
+    }
+
+    .you__item, .color__element{
+        width: 100%;
+    }
+
+    .registration_info_data{
+        /* max-width: 330px; */
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .registration_info_data p{
+        margin: 0 0 10px 0;
+    }
+}
+@media (max-width: 424px){ 
+    .header_info h1{
+        font-size: 37px;
+        line-height: 47px;
+    }
+    form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 31px 0 32px 0;
+    }
+
+    .registration_info p{
+        margin: 23px 0;
+        font-size: 20px; 
+    }
+    .registration_info_data p{
+        font-size: 14px;
+        margin: 0 0 10px 0;
+    }
+}
